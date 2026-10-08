@@ -1,0 +1,14 @@
+topic: "AI for finance professionals"
+
+silence:
+  noise_db: -35
+  min_duration: 1.5
+  padding: 0.25
+
+transcription:
+  model: small
+  glossary: []   # names and tools Whisper tends to mishear
+
+recap:
+  format: article   # article | short_recap | linkedin_post | bullet_summary
+  model: claude-sonnet-5-5
